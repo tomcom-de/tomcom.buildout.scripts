@@ -20,3 +20,7 @@ TO KNOW:
 - Versions who shoud be upgraded but are not in the new version.cfg
   will not be handled. So it's every time possible that you have to modify
   some versions by your own. Depending on the 3rd party packages you installed.
+
+**pin_version**
+
+Builds a new versions.cfg file. All Versions wich are used in egg form are included.
