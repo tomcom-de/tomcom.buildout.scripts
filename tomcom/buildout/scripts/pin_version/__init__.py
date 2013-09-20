@@ -7,7 +7,7 @@ import sys
 
 from ConfigParser import ConfigParser
 
-parser = argparse.ArgumentParser(description="""Parse and upload a po file to the server.""")
+parser = argparse.ArgumentParser(description="""Pin used versions in versions.cfg. Not used versions will be removed.""")
 
 parser.add_argument('--file_name',
                     dest='file_name',
